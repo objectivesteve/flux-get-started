@@ -4,6 +4,7 @@ metadata:
   name: podinfo-ingress
   namespace: demo
 spec:
+  className: "nginx"
   rules:
   - http:
       paths:
